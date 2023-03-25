@@ -14,28 +14,32 @@ code {
 
 
 
-
+/*  */
 
 
 /* Nav Bar */
 .nav{
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 70px;
   background-image: linear-gradient(to right, rgb(115, 0, 255), rgb(103, 31, 171), rgb(91, 79, 103));
+  padding: 20px;
+  color: white;
 }
 
 #nav-logo{
   width: 4%;
   height: 3pc;
   position: absolute;
-  left: 42%;
-  top: 10px;
+  left: 43%;
+
 }
 
 .span-meme-gen{
   color: white;
   position: absolute;
-  left: 52%;
-  top: 20px;
-  font-size: larger;
+  left: 51%;  
+  font-size: 1.5rem;
+  font-style: italic;
 }
