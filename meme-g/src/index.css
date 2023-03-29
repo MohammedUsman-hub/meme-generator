@@ -12,7 +12,9 @@ code {
     monospace;
 }
 
-
+main{
+  padding: 36px;
+}
 
 /*  */
 
@@ -46,13 +48,22 @@ code {
 
 /* Meme form and button */
 .form{
-
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
 }
 
 .form-input{
-
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+  text-indent: 5px;
 }
 
 .form-button{
-  
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, rgb(115, 0, 255), rgb(103, 31, 171), rgb(91, 79, 103));
+  color: white;
+  border: none;
+  cursor: pointer;
 }
