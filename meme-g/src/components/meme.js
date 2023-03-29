@@ -4,9 +4,14 @@ import "../App.css"
 export default class Meme extends Component{
     render(){
         return(
-            <div>
-                
-            </div>
+            <main>
+                <form className='form'>
+
+                    <input placeholder='Top-text' className='form-input' type="text"/>
+                    <input placeholder='Bottom-text' className='form-input' type="text"/>
+                    <button className='form-button'>Generate a new meme image</button>
+                </form>
+            </main>
         );
     }
 }
