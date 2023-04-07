@@ -67,3 +67,10 @@ main{
   border: none;
   cursor: pointer;
 }
+
+/* Meme image */
+.meme-img{
+  width: 50%;
+  position: absolute;
+  left: 25%;
+}
