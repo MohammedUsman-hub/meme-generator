@@ -3,12 +3,12 @@ import "../App.css"
 
 import memesData from '../memesData';
 
-/* 
+
    function imageClick(){
         const memesArray = memesData.data.memes
         const randomNumber = Math.floor(Math.random() * memesArray.length)
         const url = memesArray[randomNumber].url
-    }*/
+    }
 
 export default function Meme(){
        
@@ -34,3 +34,4 @@ export default function Meme(){
         );
     
 }
+/* */
